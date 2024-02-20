@@ -9,12 +9,12 @@ O projeto tem como intuito a ingestão de dados de uma API pública chamada SWAP
 
 ## Extract
 *  Extraem o código da API SWAPI de forma separada e retorna um dataframe para que possa ser utilizado pela main.py.
-*  
+  
 ## Transform
-* Extraem os dados em formato CSV da pasta "Raw" (salvos pela main.py) e faz o tratamento dos dados,isto é, tranforma os dados para lower_case e retira caracteres especiais.
+* Extraem os dados em formato CSV da pasta "Raw" (salvos pela main.py) e faz o tratamento dos dados, isto é, tranforma os dados para lower_case e retira caracteres especiais.
 
 ## Main
-* Para que o código rode, vá até a pasta main e execute o código:
+* Para que o código execute, vá até a pasta /main e execute a linha abaixo:
   
 ```bash
 python main.py
@@ -22,6 +22,9 @@ python main.py
 * A main tem como função receber os dataframes em formato bruto dos extratores e salvar em formato .CSV na pasta RAW;
 * Posteriormente, recebe os dados tratados e transformaddos pelo "transform" e salva os dataframes em arquivo .CSV na pasta Work
 
+## Pasta RAW E WORK
+* Raw: Localização em /main/Raw, contém os dados separados em arquivos .CSV e de forma bruta, isto é, um dataframe sem tratamento;
+* Work: Localização em /main/Work, contém os dados separados em arquivos .CSV e de forma tratada, isto é, um dataframe com as devidas correções. 
 
 ## Instalação das Dependências
 Dependências do código:
