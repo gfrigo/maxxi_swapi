@@ -1,5 +1,5 @@
 ## SWAPI 
-Este é o projeto da Parte 2 do processo seletivo da MaxxiData. O projeto acima foi desenvolvido a partir de um ambiente virtual no python `(venv)` e extraído a pasta `src` para compartilhamento dos códigos de `extract`, `main` e `tranform.`
+Este é o projeto da Parte 2 do processo seletivo da MaxxiData. O projeto acima foi desenvolvido a partir de um ambiente virtual no python `(venv)` e extraído a pasta `src` para compartilhamento dos códigos de `extract`, `main` e `transform.`
 
 ## Objetivo?
 O projeto tem como intuito a ingestão de dados de uma API pública chamada SWAPI com dados do Star Wars. Dela foi retirado os seguintes dados:
